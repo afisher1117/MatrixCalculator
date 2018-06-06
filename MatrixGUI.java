@@ -60,6 +60,7 @@ public class MatrixGUI{
 		matrixPanel.add(matrixPane("Matrix B", matrixB));
 		matrixPanel.add(Box.createRigidArea(new Dimension(10, 0)));
 		matrixPanel.add(matrixPane("Matrix C", matrixC));
+		matrixC.setEditable(false);
 		
 		JPanel buttonPane = new JPanel();
 		buttonPane.setBorder(BorderFactory.createEmptyBorder(5, 5, 5, 5));
